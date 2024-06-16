@@ -81,7 +81,7 @@ app.post("/webhook", async (req, res) => {
           },
         });
     
-        var maillist=["prof.owaisrazakhan@gmail.com",stdemail]
+        var maillist=["prof.owaisrazakhan@gmail.com","hammadn788@gmail.com",stdemail]
         var mailOptions = {
           from: "prof.owaisrazakhan@gmail.com",
           to: maillist,
